@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b26">
+  <meta name="description" content="Meet the members of Second Skin Corpo.">
+  <title>Second Skin Corpo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Second Skin Corpo home"><span class="brand-mark">S</span><span>SECOND<span class="brand-light">SKIN CORPO</span></span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-label="Open navigation">☰</button>
+    <nav id="main-nav" aria-label="Main navigation">
+      <a href="#home" data-link="home">Home</a><a href="#about" data-link="about">About</a><a href="#services" data-link="services">Services</a><a href="#contact" data-link="contact">Contact</a>
+      <div class="nav-auth" id="nav-auth"><a class="nav-login" href="#login">Log in</a><a class="button button-small" href="#signup">Get started <span>↗</span></a></div>
+    </nav>
+  </header>
+  <main id="app" tabindex="-1" aria-live="polite"></main>
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">S</span><span>SECOND<span class="brand-light">SKIN CORPO</span></span></a><p>Thoughtful strategy. Practical progress.</p><span>© <span id="year"></span> Second Skin Corpo</span></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
